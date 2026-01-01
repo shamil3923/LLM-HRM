@@ -300,27 +300,5 @@ python quick_test.py
 4. **HRM Neural Network** computes answer
 5. **LLM** generates human explanation
 
-The HRM is a PyTorch feedforward network (80→128→128→64→1) trained on synthetic mathematical problems to learn reasoning patterns.
 
-## ⚠️ Important Notes
 
-- The pre-trained model (`hrm_trained.pt`) is trained for **2000 steps** - this is optimal!
-- Training longer (20k+ steps) causes overfitting and worse performance
-- Always use the included `hrm_trained.pt` for best results
-
-## 🤝 Contributing
-
-Contributions welcome! Areas of interest:
-- Better HRM architectures (transformers, attention)
-- More sophisticated plan validation
-- Integration with different LLM providers
-- Benchmark datasets and evaluation metrics
-- Support for more complex operations
-
-## 📄 License
-
-MIT License - feel free to use and modify for your projects.
-
-## 📧 Contact
-
-Questions or feedback? Open an issue on GitHub!
